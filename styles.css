@@ -1,0 +1,117 @@
+.top {
+    display: flex;
+    align-items: center;
+    height: 70px;
+    background-color:#1F2235 ;
+    
+}
+
+.logo {
+    width: 60px;
+    padding-left: 40px;
+}
+
+.navlink >a:hover {
+     color: brown;
+}
+
+
+.h-section {
+    height: 600px;
+    background-color:#23263A ;
+}
+
+
+.navlink {
+    display: flex;
+    justify-content: space-between;
+    display: inline-block;
+    font-size: medium;
+}
+
+.navlink >a {
+    color: white;
+    text-decoration: none;
+    padding-right: 10px;
+}
+
+.nav-items {
+    display: flex;
+    justify-content: right;
+    justify-content: space-between;
+    color: white;
+    width: 380px;
+    text-decoration: none;
+    margin-left: 700px ;
+}   
+
+.brand-icons {
+    font-family: "roboto";
+    font-size: 15px;
+    font-weight: 300;
+    height: 40px;
+    width: 40px;
+    margin-top: 150px;
+    color: white;
+    background-color:#23263A ;
+    border-radius: 30px;
+    border-color: rgb(255, 99, 71);
+    border-style: solid;
+    margin-left: 10px;
+    
+}
+
+#face-logo {
+    margin-left: 60px;
+}
+
+.my-name {
+    font-family: "roboto";
+    font-size: 70px;
+    font-weight: bold;
+    color: white;
+    letter-spacing: -2px;
+    margin-left: 60px;
+    line-height: 10px;
+}
+
+.biography {
+    font-family: "roboto";
+    font-size: 20px;
+    width: 400px;
+    line-height: 25px;
+    color:#A9A9A9;
+    margin-left: 60px;
+}
+
+
+.my-pic {
+    width: 300px;
+    height: 400px;
+    position: absolute;
+    right: 200px;
+    top: 200px ;
+}
+
+.port-tube{
+    margin-top: 20px;
+    margin-left: 60px;
+    padding: 10px;
+    width: 120px;
+    border-radius: 30px;
+    border-color:rgb(255, 99, 71) ;
+    border-style: solid;
+    color: white;
+    background-color:#1F2235;
+}
+
+.youtube-button  {
+    margin-left: 10px;
+    padding: 10px;
+    width: 60px;
+    border: 0px;
+    border-radius:15px;
+    color: white;
+    background-color:rgb(255, 99, 71);
+    border-style: solid;
+}
