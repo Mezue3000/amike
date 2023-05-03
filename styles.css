@@ -34,7 +34,7 @@ body {
 
 
 .house {
-    height: 870px;
+    height: 750px;
 
 }
 
@@ -200,6 +200,7 @@ body {
 .headings {
     font-family: roboto;
     color: white;
+    line-height: 30px;
     
 }
 
@@ -207,7 +208,8 @@ body {
 .ipsum {
     font-family: roboto;
     width: 200px;
-    font-size: 13px;
+    line-height: 20px;
+    font-size: 15px;
     color:#A9A9A9;
 }
 
@@ -221,7 +223,9 @@ body {
 
 .grid-icons {
     color:rgb(255, 99, 71);
-    font-size: 30px;
+    font-size: 40px;
+    font-weight: 30px;
+    line-height: 40px;
 
 }
 
@@ -233,7 +237,7 @@ body {
 
 .card {
     padding: 40px 20px;
-    width: 250px;
+    width: 260px;
     background-color:black;
     margin-left: 100px;
     margin-top: 20px;
@@ -264,7 +268,7 @@ body {
     font-size: 80px;
     font-weight: 40px;
     color: white;
-    margin-top: 50px;
+    margin-top: 100px;
     margin-bottom: 25px;
 }
 
@@ -277,7 +281,7 @@ body {
 }
 
 .line2 {
-    color:rgb(255, 99, 71);
+    color:crimson;
     font-size: 100px;
     line-height: 20px;
 }
@@ -307,6 +311,7 @@ body {
     font-family: roboto;
     font-size: 20px;
     color: #A9A9A9;
+    width: 600px;
     margin-left: 200px;
     margin-right: 35px;
     margin-bottom: 25px;
@@ -318,18 +323,35 @@ body {
     font-family: roboto;
     font-size: 20px;
     color:#A9A9A9; 
+    width: 500px;
     margin-left: 200px;
     line-height: 30px;
     margin-bottom: 25px;
 }
 
-.para4 {
+
+.flex-vitae {
+    display: inline-block;
+    margin-left:200px;
+    width: 150px;
+}
+
+
+.info-1 {
     font-family: roboto;
     font-size: 20px;
-    margin-left: 200px;
-    color:#A9A9A9; 
-
+    font-weight:30px;
+    color: crimson;
 }
+
+
+.info-2 {
+    font-family: roboto;
+    font-size: 17px;
+    font-weight: 25px;
+    color: white;
+}
+
 
 .sk-section {
     height: 700px;
@@ -348,6 +370,7 @@ body {
     margin-left: 50px;
 
 }
+
 
 .work {
     font-family: roboto;
@@ -400,19 +423,20 @@ body {
 .rope {
     height: 2px;
     border-color:coral;
- }
+}
 
 
- .porlio {
+.porlio {
     font-family: roboto;
     font-size: 80px;
     font-weight: 40px;
     color: white;
     width: 10px;
     margin-left: 450px;
- }
+}
 
- .wordpress {
+
+.wordpress {
     font-family: roboto;
     font-size: 20px;
     color:#A9A9A9; 
@@ -422,25 +446,25 @@ body {
     margin-top: 20px;
     margin-bottom: 20px;
 
- }
+}
 
 
- .port-section {
+.port-section {
        height: 2400px;
- }
+}
 
 
 
- .line3 {
+.line3 {
     margin-left:570px;
     margin-bottom: 50px;
     color:coral;
     line-height: 20px;
     font-size: 100px;
- }
+}
 
 
- .butt {
+.butt {
     font-size: 18px;
     background-color: #1F2235;
     border-color: coral;
@@ -450,20 +474,20 @@ body {
     width: 120px;
     color: white;
     margin-bottom: 50px;
- }
+}
 
 
- .nav-list {
+.nav-list {
     margin-top: 10px;
- }
+}
 
 
- .butt:hover {
+.butt:hover {
     background-color: coral;
- }
+}
 
 
- .list {
+.list {
     display: flex;
     justify-content: space-between;
     width: 500px;
@@ -491,8 +515,9 @@ body {
 
 
 .room {
-    height: 700px;
+    height: 900px;
 }
+
 
 .plan {
     text-align: center;
@@ -508,6 +533,7 @@ body {
     color: white;
 }
 
+
 .dummy {
     font-family: roboto;
     font-size: 20px;
@@ -517,6 +543,7 @@ body {
     margin-left: 300px;
 }
 
+
 .line4 {
     margin-left: 570px;
     font-size: 80px;
@@ -525,22 +552,54 @@ body {
     color:crimson ;
 }
 
+
 .linz {
-    width: 200px;
+    width: 300px;
+    color: gray;
+    font-size: small;
+    font-weight: 10px;
 }
+
 
 .flex-carriage {
     display: flex;
     justify-content:space-between;
-    width: 800px;
     margin-left: 50px;
+    margin-right: 40px;
 }
+
 
 .flexy-bag {
     padding: 30px;
-    background-color: black;
+    background-color:black;
     border-radius: 20px;
+    border-color: white;
+    border-style: solid;
 }
+
+
+
+.flexy-mid {
+    padding:30px;
+    background-color: black;
+    border-radius:20px;
+    border-color: crimson;
+    border-style:solid;
+}
+
+
+
+.flexy-bag:hover {
+    background-color: tomato;
+}
+
+
+
+.flexy-mid:hover {
+    background-color: green;
+}
+
+
 
 .basy {
     font-family: roboto;
@@ -550,12 +609,21 @@ body {
     color: white;
 }
 
+
+.rem {
+    font-family: roboto;
+    font-size: 10px;
+
+}
+
+
 .figure {
     font-size: 90px;
     font-weight: 600px;
     color: white;
     text-align: center;
 }
+
 
 .gigs-5 {
     font-family: roboto;
@@ -567,6 +635,12 @@ body {
     line-height: 50px;
 }
 
+
+.dollar {
+    font-size: 30px
+ }
+
+
 .chase {
     font-family: roboto;
     font-size: 20px;
@@ -574,10 +648,160 @@ body {
     width: 120px;
     padding: 10px;
     margin-top: 30px;
-    margin-left: 40px;
+    margin-left: 90px;
     color: white;
     border-color: crimson;
     background-color:black;
     border-radius: 20px;
     border-style: solid;
+}
+
+
+
+.flex-house {
+    display: flex;
+    justify-content: space-between;
+    height:400px;
+    background-color:#1F2235;    
+}
+
+
+.flex-tag {
+    width: 500px;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+
+.top-icons {
+    font-size: 50px;
+    color: white;
+    margin-left: 10px;
+}
+
+
+.numbers {
+    font-family: roboto;
+    font-size:60px;
+    font-weight:bolder;
+    color:brown;
+    line-height: 90px;
+}
+
+
+
+.letters {
+    font-family: roboto;
+    font-size: 20px;
+    font-weight: 50px;
+    color: white;
+
+}
+
+.flex-all {
+    display: flex;
+    height: 400px;
+}
+
+
+.monial {
+    font-family:roboto;
+    font-size: 18px;
+    font-weight: 10px;
+    color: crimson;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+.clients {
+    font-family: roboto;
+    font-size:50px;
+    font-weight: 40px;
+    color: white;
+    margin-top: 30px;
+    margin-left:50px;
+    width: 400px;
+}
+
+
+.justo {
+    font-family: roboto;
+    font-size: 20px;
+    font-weight: 10px;
+    color: white;
+    margin-top: 20px;
+    margin-left: 50px;
+    line-height: 25px;
+    width: 500px;
+}
+
+
+.moore {
+    font-family: roboto;
+    font-size: 20px;
+    font-weight: 10px;
+    color: white;
+    background-color: #1F2235;
+    margin-top: 20px;
+    margin-left: 50px;
+    width: 200px;
+    padding:20px 20px;
+    border-radius: 30px;
+    border-style: solid;
+    border-color: crimson;
+
+}
+
+.moore:hover {
+    background-color: crimson;
+}
+
+
+.virtue {
+    font-family:roboto;
+    font-size:18px;
+    font-style: italic;
+    font-weight:30px;
+    line-height: 30px;
+    color: white;
+    margin-top: 180px;
+    margin-left: 150px;
+    padding: 35px;
+    width: 450px;
+    background-color:#1F2235;
+}
+
+
+
+.stars {
+    font-size: 20px;
+    color: crimson;
+    margin-left:150px;
+}
+
+
+.flex-3 {
+    width: 800px;
+}
+
+
+.apostrophe {
+     font-size:40px;
+     font-weight:70px;
+     color: white;
+}
+
+
+
+.flex-boss  {
+    display: flex;
+    justify-content: right;
+}
+
+ 
+
+.image-circle  {
+    margin-right: 150px;
+    border-radius: 30px;
+
 }
