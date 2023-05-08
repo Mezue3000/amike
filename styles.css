@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+
 .top {
     display: flex;
     align-items: center;
@@ -11,14 +12,12 @@
     width: 100%;
     background-color:#1F2235 ;
     position: fixed;
-    
-    
+       
 }
 
 
 body {
-    background-color:#23263A ;
-    margin-bottom: 3000px;
+    background-color:#23263A;
 
 }
 
@@ -27,6 +26,7 @@ body {
     width: 120px;
     padding-left: 40px;
 }
+
 
 .navlink >a:hover {
      color: brown;
@@ -45,6 +45,7 @@ body {
     display: inline-block;
 }
 
+
 .navlink >a {
     font-family: roboto;
     font-size: 16px;
@@ -62,10 +63,10 @@ body {
     margin-left: 550px ;
 }   
 
+
 .brand-icons {
     font-family: "roboto";
     font-size: 15px;
-    font-weight: 300;
     height: 40px;
     width: 40px;
     margin-top: 200px;
@@ -102,6 +103,7 @@ body {
 
 }
 
+
 .biography {
     font-family: "roboto";
     font-size: 30px;
@@ -124,6 +126,7 @@ body {
     top: 200px ;
 }
 
+
 .port-tube{
     margin-top: 20px;
     margin-left: 60px;
@@ -140,6 +143,7 @@ body {
     background-color: coral;
 }
 
+
 .youtube-button  {
     margin-left: 10px;
     padding: 10px;
@@ -152,9 +156,6 @@ body {
 }
 
 
-/* .s-section {
-    height: 700px;
-} */
 
 .sub-service {
     font-family: roboto;
@@ -477,6 +478,7 @@ body {
 }
 
 
+
 .nav-list {
     margin-top: 10px;
 }
@@ -519,10 +521,13 @@ body {
 }
 
 
+
 .plan {
     text-align: center;
     color: crimson;
 }
+
+
 
 .prize {
     font-family: roboto;
@@ -544,6 +549,7 @@ body {
 }
 
 
+
 .line4 {
     margin-left: 570px;
     font-size: 80px;
@@ -551,6 +557,7 @@ body {
     line-height: 50px;
     color:crimson ;
 }
+
 
 
 .linz {
@@ -561,12 +568,14 @@ body {
 }
 
 
+
 .flex-carriage {
     display: flex;
     justify-content:space-between;
     margin-left: 50px;
     margin-right: 40px;
 }
+
 
 
 .flexy-bag {
@@ -576,6 +585,7 @@ body {
     border-color: white;
     border-style: solid;
 }
+
 
 
 
@@ -601,6 +611,7 @@ body {
 
 
 
+
 .basy {
     font-family: roboto;
     font-size: 20px;
@@ -610,11 +621,13 @@ body {
 }
 
 
+
 .rem {
     font-family: roboto;
     font-size: 10px;
 
 }
+
 
 
 .figure {
@@ -641,6 +654,9 @@ body {
  }
 
 
+
+
+
 .chase {
     font-family: roboto;
     font-size: 20px;
@@ -664,6 +680,8 @@ body {
     height:400px;
     background-color:#1F2235;    
 }
+
+
 
 
 .flex-tag {
@@ -698,9 +716,12 @@ body {
 
 }
 
+
+
 .flex-all {
     display: flex;
-    height: 400px;
+    height: 700px;
+
 }
 
 
@@ -713,6 +734,8 @@ body {
     margin-left: 50px;
 }
 
+
+
 .clients {
     font-family: roboto;
     font-size:50px;
@@ -722,6 +745,7 @@ body {
     margin-left:50px;
     width: 400px;
 }
+
 
 
 .justo {
@@ -734,6 +758,7 @@ body {
     line-height: 25px;
     width: 500px;
 }
+
 
 
 .moore {
@@ -752,6 +777,8 @@ body {
 
 }
 
+
+
 .moore:hover {
     background-color: crimson;
 }
@@ -764,24 +791,26 @@ body {
     font-weight:30px;
     line-height: 30px;
     color: white;
-    margin-top: 180px;
-    margin-left: 150px;
-    padding: 35px;
-    width: 450px;
+    margin-top: 120px;
+    margin-left: 120px;
+    padding: 50px;
+    width: 500px;
     background-color:#1F2235;
 }
+
 
 
 
 .stars {
     font-size: 20px;
     color: crimson;
-    margin-left:150px;
+    margin-left:100px;
 }
 
 
+
 .flex-3 {
-    width: 800px;
+    width: 600px;
 }
 
 
@@ -793,15 +822,420 @@ body {
 
 
 
-.flex-boss  {
+.flex-last {
     display: flex;
-    justify-content: right;
+    margin-left: 120px;
+    margin-top: 30px;
 }
 
- 
 
-.image-circle  {
-    margin-right: 150px;
+
+.pick-img {
+    height: 70px;
+}
+
+
+
+.otton {
+    border-color: none;
+    border-radius:30px;
+}
+
+
+
+
+.logy {
+    font-family: roboto;
+    font-size: 20px;
+    font-weight: 15px;
+    line-height: 30px;
+    color: white;
+   width:250px;
+}
+
+
+
+.inline {
+    display: flex;
+    padding: 5px 5px;
+    margin-top: 12px;
+    margin-left: 180px;
+    border-radius: 5px;
+}
+
+
+
+.raund {
+    width: 40px;
+    background-color: #1F2235;
+    border-color: white;
+    border-radius: 90px;
+    border-style: solid;
+    color: white;
+}
+
+
+
+.raund2 {
+    margin-left: 20px;
+    width: 40px;
+    background-color: #1F2235;
+    border-color: white;
+    border-radius: 120px;
+    border-style: solid;
+    color: white;
+}
+
+
+
+.flex-text {
+    height: 250px;
+    color: darkgrey;
+    display: flex;
+    justify-content: space-between;
+    width:1500px;
+    padding-top: 90px;
+    padding-left: 50px;
+    padding-right: 370px;
+    background-color:#1F2235 ;
+
+}
+
+
+
+.post {
+    font-family: roboto;
+    font-size: 15px;
+    font-weight: 10px;
+    text-align: center;
+    margin-top: 90px;
+    color: coral;
+}
+
+
+
+
+.blogy {
+    font-family: roboto;
+    font-size:50px;
+    font-weight:40px;
+    text-align: center;
+    margin-top: 20px;
+    color:white;
+
+}
+
+
+
+
+.loem {
+    font-family: roboto;
+    font-size:20px;
+    width:600px;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 300px;
+    color:gray;
+
+}
+
+
+
+
+.dashline {
+    margin-left: 570px;
+    font-size: 80px;
+    font-weight: 700px;
+    line-height: 50px;
+    color:coral;
+}
+
+
+
+
+.style5 {
+    resize: both;
+    width: 385px;
+    height: 280px;   
+}
+
+
+
+
+.flex-plate {
+    height: 450px;
+    display:flex;
+    margin-top: 60px;
+}
+
+
+
+
+.plate {
+    margin-left:25px;
+    background-color:#1F2235;
+}
+
+
+
+
+.one-word {
+    font-family: roboto;
+    font-size: 15px;
+    font-weight: 10px;
+    line-height: 60px;
+    padding-left: 20px;
+    color:crimson; 
+}
+
+
+
+
+
+.two-words {
+    font-family: roboto;
+    font-size: 15px;
+    font-weight: 10px;
+    line-height: 60px;
+    padding-left:20px;
+    color:white; 
+}
+
+
+
+.two-graphs {
+    font-family: roboto;
+    font-size: 20px;
+    font-weight: 20px;
+    width: 300px;
+    padding-left:20px;
+    color:white; 
+
+}
+
+
+
+
+.two-heads {
+    font-size: 20px;
+    font-weight: 20px;
+    padding-left:20px;
+    line-height: 60px;
+    color:crimson; 
+
+}
+
+
+
+
+.query {
+    font-family: roboto;
+    font-size: 15px;
+    font-weight: 10px;
+    text-align: center;
+    margin-top: 100px;
+    color: coral; 
+}
+
+
+
+
+.phone {
+    font-family: roboto;
+    font-size:50px;
+    font-weight:40px;
+    text-align: center;
+    margin-top: 20px;
+    color:white; 
+}
+
+
+
+
+.dumtext {
+    font-family: roboto;
+    font-size:20px;
+    width:600px;
+    text-align: center;
+    margin-top: 20px;
+    margin-left:300px;
+    color:gray;
+}
+
+
+
+.dash3 {
+    margin-left: 570px;
+    font-size: 80px;
+    font-weight: 700px;
+    line-height: 50px;
+    color:coral;
+}
+
+
+
+.flex-endy {
+    display: flex;
+    justify-content: space-between;
+    width: 800px;
+    margin-top: 50px;
+    margin-left: 180px;
+    margin-right: 180px;
+    
+
+}
+
+
+
+.flexem {
+    padding: 45px;
+    margin-left: 10px;
+    display: flex;
+    background-color:#1F2235; 
+}
+
+
+
+.top-head {
+    font-family: roboto;
+    font-size: 17px;
+    font-weight: 7px;
+    width: 150px;
+    color: white;
+}
+
+
+
+.spanky {
+    font-size: 35px;
+    font-weight: 20px;
+    margin-right: 30px;
+    color: crimson;
+}
+
+
+
+.info-data {
+    margin-top: 60px;
+    margin-left:190px;
+    
+}
+
+
+.imput {
+    width: 440px;
+    padding: 20px;
+    color: white;
+    background-color:#1F2235;
+    border: none;
+    border-radius: 10px;
+}
+
+
+
+.imsub {
+    width: 880px;
+    padding: 20px;
+    color: white;
+    background-color:#1F2235;
+    border: none;
+    border-radius: 10px;
+}
+
+
+
+.imsub2 {
+    width: 880px;
+    padding: 70px;
+    color: white;
+    background-color:#1F2235;
+    border: none;
+    border-radius: 10px; 
+}
+
+
+.last-button {
+    margin-top:30px;
+    margin-bottom: 50px;
+    padding: 25px;
+    background-color: crimson;
+    color: white;
+    border-radius: 40px;
+    border: none;
+    width: 250px;
+}
+
+
+
+.footy {
+    height: 600px;
+    background-color: #1F2235;
+}
+
+
+.loogo {
+    width: 120px;
+    margin-top:100px;
+    margin-left: 550px;
+}
+
+
+.amet {
+    font-family: roboto;
+    font-size: 20px;
+    font-weight: 10px;
+    text-align: center;
+    color: white;
+    margin-top: 60px;
+    margin-left: 250px;
+    width: 750px;
+}
+
+
+
+.brandy {
+    margin-top: 50px;
+    margin-left: 500px;
+}
+
+
+
+.brandy-icons {
+    font-family: "roboto";
+    font-size: 15px;
+    height: 40px;
+    width: 45px;
+    color: white;
+    background-color:#23263A ;
     border-radius: 30px;
-
+    border: none;
 }
+
+
+
+.brandy-icons:hover {
+    background-color: coral;
+}
+
+
+
+.copyright {
+    font-family: roboto;
+    font-size: 20px;
+    font-weight: 10px;
+    color: white;
+    text-align: center;
+    margin-top: 120px;
+}
+
+
+
+.red {
+    font-family: roboto;
+    font-size: 20px;
+    font-weight: 10px;
+    color: crimson;
+}
+
+
+
