@@ -509,7 +509,18 @@ body {
     margin-left:65px;
     position: relative;
     
-}   
+}
+
+
+
+.grid-image:hover  {
+    animation: myRotate 3s linear 0s infinite;
+}
+
+
+@keyframes myRotate {
+    100%{transform: rotatey(360deg)} 
+}
 
 
 .grid-img {
@@ -1022,18 +1033,21 @@ body {
 
 
 .style5 {
-    resize: both;
-    width: 385px;
-    height: 280px;   
+    width: 350px;
+    height: 250px;
+    border-radius: 10px;   
 }
 
 
 
 
 .flex-plate {
-    height: 450px;
-    display:flex;
-    margin-top: 60px;
+    display:grid;
+    grid-template-columns: 400px 400px 400px;
+    margin-top: 50px;
+    margin-left: 10px;
+    margin-right: 20px; 
+   
 
 }
 
@@ -1041,8 +1055,11 @@ body {
 
 
 .plate {
-    margin-left:25  px;
+    margin-left: 30px;
+    margin-right: 20px;
     background-color:#1F2235;
+    border-radius: 15px;
+    width: 350px;
 }
 
 
@@ -1149,9 +1166,7 @@ body {
     width: 800px;
     margin-top: 50px;
     margin-left: 180px;
-    margin-right: 180px;
-    
-
+    margin-right: 180px;    
 }
 
 
