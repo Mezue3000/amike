@@ -12,7 +12,7 @@
     width: 100%;
     background-color:#1F2235 ;
     position: fixed;
-       
+    z-index: 100;   
 }
 
 
@@ -451,7 +451,7 @@ body {
 
 
 .port-section {
-       height: 2400px;
+       height: 2000px;
 }
 
 
@@ -503,16 +503,71 @@ body {
 
 .grid2 {
     display: grid;
-    grid-template-columns:400px 400px 400px;
-    column-gap: 1px;
+    grid-template-columns:1fr 1fr 1fr;
+    row-gap: 2px;
+    margin-left: 50px;
+    position: relative;
     
 }   
 
 
-.grid-picture {
-      resize: both;
-      width: 100%;
-      height: auto;
+.grid-img {
+      height:300px;
+      width: 320px;
+      border-radius:8px;
+}
+
+
+.grid-flo {
+    height: 450px;
+    width: 350px;
+    border-radius: 8px;
+}
+
+
+.grid-oli {
+    height: 300px;
+    width: 320px;
+    border-radius: 8px;
+}
+
+
+.grid-col {
+    height:190px;
+    width:320px;
+    border-radius:8px;
+    position: absolute;
+    top: 330px;
+}
+
+
+.grid-arno {
+    width: 350px;
+    border-radius: 8px;
+}
+
+
+.grid-mukul {
+   height: 420px;
+   border-radius: 8px;
+}
+
+
+.grid-kui {
+    width: 320px;
+    border-radius: 8px;
+    position: absolute;
+    bottom: 230px;
+}
+
+
+.grid-pik {
+    position: relative;
+}
+
+.grid-jul {
+    width: 350px;
+    border-radius: 8px;
 }
 
 
@@ -966,13 +1021,14 @@ body {
     height: 450px;
     display:flex;
     margin-top: 60px;
+
 }
 
 
 
 
 .plate {
-    margin-left:25px;
+    margin-left:25  px;
     background-color:#1F2235;
 }
 
