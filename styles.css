@@ -254,7 +254,7 @@ body {
 
 
 .abt-section {
-    height: 700px;
+    height: 750px;
 }
 
 
@@ -425,6 +425,7 @@ body {
 .rope {
     height: 2px;
     border-color:coral;
+    margin-right: 70px;
 }
 
 
@@ -923,6 +924,7 @@ body {
 .otton {
     height: 90px;
     padding: 15px;
+    background-color: rgba(0, 0, 0, 0.124);
     border-color:white;
     border-radius: 50px;
     border-style: solid;
